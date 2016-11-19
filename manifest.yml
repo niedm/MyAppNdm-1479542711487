@@ -1,0 +1,12 @@
+applications:
+- path: target/JavaHelloWorldApp.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: MyAppNdm
+  host: MyAppNdm
+  disk_quota: 1024M
+  services:
+  - Conversation-q5
+  - Text to Speech-8y
+  - Speech To Text-co
